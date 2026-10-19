@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Стоматология «Белая улыбка»</title>
+<meta name="description" content="Лечение зубов, чистка, отбеливание, имплантация и детская стоматология. Запись и цены через WhatsApp.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=PT+Sans:wght@400;700&display=swap">
+<style>
+:root{--bg:#f6f8f5;--ink:#12332f;--soft:#55706b;--line:#d3ddd8;--card:#fff;--main:#0f6b62;--tint:#e3f0ec;--coral:#d9604a}
+@media(prefers-color-scheme:dark){:root{--bg:#0f2724;--ink:#e8f2ef;--soft:#9bb8b2;--line:#27413d;--card:#17332f;--main:#3fb8a8;--tint:#1d3d38;--coral:#ff8a73}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 "PT Sans",system-ui,sans-serif}
+h1,h2,h3{font-family:"PT Serif",Georgia,serif;font-weight:700;line-height:1.15;margin:0}
+.wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+header{display:flex;justify-content:space-between;align-items:center;padding:18px 0}
+.logo{font:700 22px "PT Serif",serif;text-decoration:none;color:var(--main)}
+.btn{display:inline-block;background:var(--main);color:#fff;font:700 16px "PT Sans",sans-serif;padding:13px 24px;border-radius:12px;text-decoration:none;border:0;cursor:pointer}
+@media(prefers-color-scheme:dark){.btn{color:#0f2724}}
+.btn:hover{filter:brightness(1.1)}
+.btn:focus-visible,.chip:focus-visible,summary:focus-visible{outline:3px solid var(--coral);outline-offset:3px}
+.hero{padding:40px 0 56px;max-width:720px}
+.hero h1{font-size:clamp(38px,7vw,66px)}
+.hero p{color:var(--soft);font-size:19px;max-width:52ch;margin:18px 0 26px}
+.smile{display:block;width:min(340px,70%);margin:6px 0 0;color:var(--coral)}
+.smile path{stroke-dasharray:420;stroke-dashoffset:420;animation:draw 1.4s .3s ease-out forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+section{padding:52px 0;border-top:1px solid var(--line)}
+section h2{font-size:clamp(28px,4.5vw,40px);margin-bottom:10px}
+.lead{color:var(--soft);margin:0 0 24px;max-width:56ch}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:20px}
+.chip{font:400 16px "PT Sans",sans-serif;color:var(--ink);background:var(--card);border:1.5px solid var(--line);border-radius:999px;padding:10px 18px;cursor:pointer}
+.chip[aria-pressed=true]{background:var(--main);border-color:var(--main);color:#fff}
+@media(prefers-color-scheme:dark){.chip[aria-pressed=true]{color:#0f2724}}
+.result{background:var(--tint);border-radius:18px 4px 18px 4px;padding:22px;max-width:620px}
+.result h3{font-size:22px;margin-bottom:6px}.result p{margin:0 0 14px}
+.result small{display:block;color:var(--soft);margin-top:12px;font-size:14px}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;min-width:420px}
+th,td{padding:13px 4px;text-align:left;border-bottom:1px solid var(--line)}
+th{color:var(--soft);font-weight:400}td:last-child,th:last-child{text-align:right;white-space:nowrap}
+.cols{display:grid;gap:26px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.cols h3{font-size:21px;margin-bottom:6px}.cols p{margin:0;color:var(--soft)}
+ol.steps{margin:0;padding-left:22px;max-width:56ch}ol.steps li{margin-bottom:10px;padding-left:6px}
+ol.steps li::marker{font:700 20px "PT Serif",serif;color:var(--coral)}
+details{border-bottom:1px solid var(--line);padding:14px 0}
+summary{cursor:pointer;font-weight:700}details p{margin:8px 0 0;color:var(--soft)}
+.cta{background:var(--main);color:#fff;border-radius:4px 28px 4px 28px;padding:42px 26px;text-align:center}
+.cta h2{margin-bottom:10px}.cta p{margin:0 auto 20px;max-width:46ch}
+.cta .btn{background:#fff;color:var(--main)}
+footer{padding:28px 0 96px;color:var(--soft);font-size:15px}
+.fab{position:fixed;right:16px;bottom:16px;z-index:9;box-shadow:0 6px 18px rgba(0,0,0,.25)}
+@media(prefers-reduced-motion:reduce){.smile path{animation:none;stroke-dashoffset:0}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><a class="logo" href="#">Белая улыбка</a><a class="btn" data-wa="Здравствуйте! Хочу записаться.">WhatsApp</a></header>
+  <div class="hero">
+    <h1>Лечим зубы бережно, без спешки и боли</h1>
+    <svg class="smile" viewBox="0 0 340 60" fill="none" aria-hidden="true"><path d="M6 10 C70 70 270 70 334 10" stroke="currentColor" stroke-width="7" stroke-linecap="round"/></svg>
+    <p>Лечение, чистка, отбеливание, имплантация и детская стоматология. Расскажите, что вас беспокоит, а цену и время согласуем в WhatsApp.</p>
+    <a class="btn" data-wa="Здравствуйте! Хочу узнать подробнее об услугах и ценах.">Узнать подробнее</a>
+  </div>
+</div>
+
+<section><div class="wrap">
+  <h2>Что вас беспокоит?</h2>
+  <p class="lead">Выберите, что похоже на вашу ситуацию, и мы подскажем, с чего начать.</p>
+  <div class="chips" id="chips"></div>
+  <div class="result" id="result" aria-live="polite"></div>
+</div></section>
+
+<section><div class="wrap"><h2>Цены</h2><p class="lead">Цены указаны «от». Точную сумму назовём после осмотра.</p>
+  <div class="tbl"><table id="table"></table></div></div></section>
+
+<section><div class="wrap"><h2>Наши правила</h2><div class="cols">
+  <div><h3>Без боли</h3><p>Перед лечением делается местная анестезия. Если вы боитесь, спокойно всё объясним.</p></div>
+  <div><h3>Цена называется заранее</h3><p>Перед началом согласуем план и сумму. Неожиданных доплат не будет.</p></div>
+  <div><h3>Инструменты стерилизуются</h3><p>Инструменты обрабатываются после каждого пациента, одноразовые материалы меняются.</p></div>
+</div></div></section>
+
+<section><div class="wrap"><h2>Как записаться</h2>
+  <ol class="steps">
+    <li>Коротко напишите в WhatsApp, что вас беспокоит. По возможности пришлите фото зуба.</li>
+    <li>Мы подскажем, к какому врачу и на какую услугу записаться.</li>
+    <li>Согласуем удобные день и время.</li>
+    <li>Вы приходите, и мы вместе обсуждаем осмотр и план лечения.</li>
+  </ol></div></section>
+
+<section><div class="wrap"><h2>Частые вопросы</h2>
+  <details><summary>Лечение болезненное?</summary><p>Лечение проводится с анестезией. Если вы боитесь, скажите об этом при записи, мы это учтём.</p></details>
+  <details><summary>Вы принимаете детей?</summary><p>Да, есть детское лечение. Укажите возраст ребёнка при записи.</p></details>
+  <details><summary>Можно ли оплатить частями?</summary><p>При длительном лечении план оплаты можно согласовать заранее. Условия расскажем в WhatsApp.</p></details>
+  <details><summary>Нужна ли предварительная запись?</summary><p>Да, чтобы не ждать, лучше записаться заранее. При острой боли попробуйте написать в тот же день.</p></details>
+</div></section>
+
+<section><div class="wrap"><div class="cta"><h2>Остались вопросы?</h2><p>Напишите коротко, ответим в тот же день.</p><a class="btn" data-wa="Здравствуйте! У меня есть вопрос.">Написать в WhatsApp</a></div></div></section>
+<footer><div class="wrap">Стоматология «Белая улыбка». <span id="hours"></span> <span id="phoneText"></span></div></footer>
+<a class="btn fab" data-wa="Здравствуйте!">WhatsApp</a>
+
+<script>
+/* ===== ИЗМЕНИТЕ ЗДЕСЬ ===== */
+const CONFIG = {
+  whatsapp: "77001234567",   // код страны + номер, без плюса и пробелов
+  phoneShown: "+7 700 123 45 67",
+  hours: "Пн–Сб 09:00–19:00.",
+  prices: [
+    ["Осмотр и консультация", "бесплатно"],
+    ["Профессиональная чистка зубов", "от 15 000 ₸"],
+    ["Лечение кариеса, пломба", "от 18 000 ₸"],
+    ["Удаление зуба", "от 12 000 ₸"],
+    ["Отбеливание зубов", "от 60 000 ₸"],
+    ["Детское лечение", "от 12 000 ₸"],
+    ["Брекет-системы", "от 250 000 ₸"],
+    ["Имплантация", "от 280 000 ₸"]
+  ],
+  cases: [
+    {q:"Болит зуб", s:"Осмотр и лечение", t:"Причину можно определить только после осмотра. Если боль усиливается, лучше прийти пораньше."},
+    {q:"Кровоточат десны", s:"Профессиональная чистка и осмотр", t:"Часто причина в налёте и камне. Чистка и осмотр — первый шаг."},
+    {q:"Зубы пожелтели", s:"Чистка и отбеливание", t:"Сначала почистим зубы и проверим, можно ли их отбеливать."},
+    {q:"Нет зуба", s:"Консультация по имплантации или протезу", t:"Расскажем о нескольких вариантах с учётом вашей ситуации."},
+    {q:"Для ребёнка", s:"Детская стоматология", t:"Напишите возраст ребёнка. Если он боится, тоже сообщите."},
+    {q:"Хочу выровнять зубы", s:"Консультация по брекетам", t:"Посмотрим на состояние зубов и расскажем о способах и сроках."}
+  ]
+};
+/* ========================== */
+const $=s=>document.querySelector(s), wa=t=>"https://wa.me/"+CONFIG.whatsapp+"?text="+encodeURIComponent(t);
+document.querySelectorAll("[data-wa]").forEach(a=>{a.href=wa(a.dataset.wa);a.target="_blank";a.rel="noopener"});
+$("#phoneText").textContent=CONFIG.phoneShown;$("#hours").textContent=CONFIG.hours;
+$("#table").innerHTML="<tr><th>Услуга</th><th>Цена</th></tr>"+CONFIG.prices.map(p=>`<tr><td>${p[0]}</td><td>${p[1]}</td></tr>`).join("");
+$("#chips").innerHTML=CONFIG.cases.map((c,i)=>`<button class="chip" data-i="${i}" aria-pressed="false">${c.q}</button>`).join("");
+function pick(i){
+  const c=CONFIG.cases[i];
+  document.querySelectorAll(".chip").forEach(b=>b.setAttribute("aria-pressed",b.dataset.i==i));
+  $("#result").innerHTML=`<h3>${c.s}</h3><p>${c.t}</p><a class="btn" target="_blank" rel="noopener" href="${wa("Здравствуйте! "+c.q+". Кажется, мне нужна услуга «"+c.s+"», хочу записаться.")}">Записаться по этому запросу</a><small>Это не диагноз, окончательное решение принимает врач.</small>`;
+}
+$("#chips").onclick=e=>{if(e.target.dataset.i)pick(e.target.dataset.i)};
+pick(0);
+</script>
+</body>
+</html>
